@@ -20,6 +20,17 @@
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
 
+            int ppl = int.Parse(Console.ReadLine());
+            int cost;
+            if( ppl > 5)
+            {
+                cost = ppl * 15 - 5;
+            }
+            else
+            {
+                cost = ppl * 15;
+            }
+            Console.WriteLine(cost);
         }
     }
 }
